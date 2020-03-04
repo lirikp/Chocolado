@@ -1,0 +1,28 @@
+body {
+	background-color: #f8f8f8;
+	color: #d2691e;
+	font-family: "scripts";
+	font-size: 24px;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+.head_menu {
+	
+	
+}
+
+li {
+	list-style-type: none;
+}
+ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.head_menu > h1 {
+	
+}
