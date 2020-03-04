@@ -6,9 +6,19 @@ body {
 	
 }
 
-a {
-	text-decoration:none;
+.body_product{
+	color:black;
 }
+a {
+    color: #d2691e; /* Цвет ссылок */
+	text-decoration:none;
+   }
+   A:visited {
+    color: #d2691e; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #d2691e; /* Цвет активных ссылок */
+   }
 
 .head_menu {
 	
