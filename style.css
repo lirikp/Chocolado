@@ -2,13 +2,53 @@ body {
 	background-color: #f8f8f8;
 	color: #d2691e;
 	font-family: "scripts";
-	font-size: 24px;
+	
 	
 }
 
-.body_product{
-	color:black;
+.head_menu li {
+	font-size: 30px;
+	font-weight:bold;
+	list-style-type: none;
 }
+
+.body_product h1, h3{
+	color:black;
+	font-size:18px;
+	font-weight:400;
+	background:#eaeaea;
+}
+.short {
+	color:#707070;
+	font-size:14px;
+	font-style:italic;
+	line-height:16px;
+}
+.specs{
+	color:green;
+	font-size:30px;
+	font-weight:900;
+}
+.detail_specs {
+	color:green;
+	font-size:21px;
+	font-weight:300;
+}
+
+.detail_specs li {
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(img/list.png) no-repeat 0 4px; /* Параметры фона */
+    padding-left: 50px; /* Смещаем текст вправо */ 
+	
+}
+
+.detail_paragraph {
+	color:#484343;
+	font-weight:400;
+	line-height:24px;
+	text-align:left;
+}
+
 a {
     color: #d2691e; /* Цвет ссылок */
 	text-decoration:none;
@@ -20,19 +60,23 @@ a {
     color: #d2691e; /* Цвет активных ссылок */
    }
 
-.head_menu {
-	
-	
-}
-
-li {
-	list-style-type: none;
-}
 ul {
 	margin-left: 0;
 	padding-left: 0;
 }
 
-.head_menu > h1 {
-	
+.contacts {
+	color:green;
+}
+
+.form {
+	color:black;
+	font-size: 32px;
+	font-weight:bold;
+}
+.formTable input{
+		height:30px;
+		border:1px solid #999;
+		background:#fff;
+		text-align:middle;
 }

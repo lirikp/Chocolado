@@ -7,19 +7,45 @@
 	</head>
 	<body>
 		<!-- HEAD -->
-		<ul class="head_menu">
-			<li>Контакты</a></li>
-			<li><a href="index.html">Главная</li>
-			<li><a href="catalog.html">Каталог</a></li>
-		</ul>
+		<table>
+			<tr>
+				<td width="25%" alain="middle">
+					<ul class="head_menu">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="catalog.html">Каталог</a></li>
+						<li>Контакты</li>
+					</ul>
+				</td>
+				<td>
+					<img src="img/sl_chocolat4a.gif" alt="Chocolado" width="700" align="right" align="top">
+				</td>
+			</tr>
+		</table>
 		<hr>
-		<h1>Напишите нам</h1> <br>
-		<form action="">
-			Имя <input type="text" size=50><br>
-			Email <input type="text"><br>
-			Тема <input type="text"><br>
-			Текст послания <textarea name="text" id="" cols="30" rows="10"></textarea><br>
-			<input type="submit" value="Задвинуть идею"><input type="reset">
+		<h1 class="contacts">Напишите нам</h1> <br>
+		<form class="form" action="">
+			<table class="formTable">
+				<tr>
+					<td white="23%">Имя</td>
+					<td><input type="text" size=50></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" size=50></td>
+				</	tr>
+				<tr>
+					<td>Тема</td>
+					<td><input type="text" size=50></td>
+				</tr>
+				<tr>
+					<td>Текст послания</td>
+					<td><textarea name="text" id="" cols="39" rows="10"></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Задвинуть идею"><input type="reset"></td>
+				</tr>
+				
+			</table>
 		</form>
 		<h1>Адрес</h1>
 		<ul>
@@ -35,4 +61,4 @@
 		
 		
 	</body>
-</html>	
+	</html>							
