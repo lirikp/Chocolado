@@ -63,10 +63,25 @@ a {
    A:active {
     color: #d2691e; /* Цвет активных ссылок */
    }
+.imgSmall {
+	border:5px solid blue;
+}
+
+.imgSmall:hover {
+	padding:5px;
+	border:none;
+}
+
 
 ul {
 	margin-left: 0;
 	padding-left: 0;
+}
+p:first-letter{
+	text-transform:uppercase;
+	font-weight:900;
+	font-size:50px;
+	color:red;
 }
 
 .contacts {
@@ -78,9 +93,31 @@ ul {
 	font-size: 32px;
 	font-weight:bold;
 }
-.formTable input{
+
+.inputEmail{
+		color:black;
 		height:30px;
 		border:1px solid #999;
-		background:#fff;
-		text-align:middle;
+		background:#ccc;
+		display: block;
+}
+
+.inputEmail:focus{
+	background:#fff;
+	color:#c12c0a;
+}
+
+
+.inputName:valid, .inputDesc, .inputText{
+	text-transform: capitalize;
+}
+
+.techTable{
+		border:2px solid #000;
+		width: 800px;
+		height: 400px;
+		border-collapse:collapse;
+}
+.techTable td{
+		border:2px solid #000;
 }
